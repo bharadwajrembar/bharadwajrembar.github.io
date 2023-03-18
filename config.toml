@@ -1,4 +1,4 @@
-baseURL = 'https://jawjawjaw.live/'
+baseURL = 'https://jawjawjaw.me/'
 languageCode = 'en-us'
 title = "Jaw's Brain Dump"
 theme = ["hugo-shortcode-roneo-collection", "PaperMod"]
