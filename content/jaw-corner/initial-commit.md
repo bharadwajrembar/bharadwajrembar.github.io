@@ -1,7 +1,7 @@
 ---
 title: "Initial Commit"
 date: 2022-09-11T19:31:28+05:30
-draft: true
+draft: false
 description: "Look ma, no hands!"
 ---
 ```
@@ -38,6 +38,8 @@ description: "Look ma, no hands!"
 **the monkeys begin to chatter away on their typewriters**
 ```
 
-```
+![Monkeys](/infinite-monkeys.jpeg)
+
+{{<ico "info-circle">}} Credits - https://notapipe.biz/
+
 ~ The Unsung Prophet A.K.A jawjawjaw
-```

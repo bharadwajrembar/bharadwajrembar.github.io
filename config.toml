@@ -1,7 +1,7 @@
 baseURL = 'https://jawjawjaw.live/'
 languageCode = 'en-us'
 title = "Jaw's Brain Dump"
-theme = "hello-friend"
+theme = ["hugo-shortcode-roneo-collection", "hello-friend"]
 
 [params]
   # dir name of your blog content (default is `content/posts`).
@@ -76,7 +76,7 @@ theme = "hello-friend"
         identifier = "jaw-corner"
         name = "Jaw's Corner"
         url = "/jaw-corner"
-        weight = 300  
+        weight = 300
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
