@@ -1,9 +1,10 @@
 baseURL = 'https://jawjawjaw.live/'
 languageCode = 'en-us'
 title = "Jaw's Brain Dump"
-theme = ["hugo-shortcode-roneo-collection", "hello-friend"]
+theme = ["hugo-shortcode-roneo-collection", "PaperMod"]
 
 [params]
+  author = "Bharadwaj R Embar"
   # dir name of your blog content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
@@ -24,6 +25,28 @@ theme = ["hugo-shortcode-roneo-collection", "hello-friend"]
   # Show full page content in RSS feed items
   #(default is Description or Summary metadata in the front matter)
   rssFullText = false
+
+  enableEmoji = true
+
+  font_size = 8
+
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+        definitionList = true
+        footnote = true
+        linkify = true
+        linkifyProtocol = 'https'
+        strikethrough = true
+        table = true
+        taskList = true
+        typographer = true
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+
 
 [languages]
   [languages.en]
@@ -81,4 +104,9 @@ theme = ["hugo-shortcode-roneo-collection", "hello-friend"]
         identifier = "about"
         name = "About"
         url = "/about"
+        weight = 999
+      [[languages.en.menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags"
         weight = 999

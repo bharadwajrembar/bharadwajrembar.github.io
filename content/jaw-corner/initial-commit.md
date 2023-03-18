@@ -2,7 +2,7 @@
 title: "Initial Commit"
 date: 2022-09-11T19:31:28+05:30
 draft: false
-description: "Look ma, no hands!"
+summary: "Look ma, no hands!"
 ---
 ```
 > one restless evening

@@ -1,7 +1,7 @@
 ---
 title: "Me, myself and I"
 type: post
-description: "Look ma, no hands!"
+summary: "Look ma, no hands!"
 date: 2022-09-11T19:31:28+05:30
 ---
 Coming out of my comfort zone, I'm finally putting my thoughts and opinions in public. 
@@ -34,7 +34,7 @@ I NEVER just want to be a master of one.
 
 ### Catch me @
 
-I mostly hate social media, not every active there. Despite that, you can catch me on:
+I mostly hate social media, not very active there. Despite that, you can catch me on:
 
 * Twitter - https://twitter.com/modejawjawjaw
 
