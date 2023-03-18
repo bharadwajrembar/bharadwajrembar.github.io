@@ -1,0 +1,84 @@
+baseURL = 'https://jawjawjaw.live/'
+languageCode = 'en-us'
+title = "Jaw's Brain Dump"
+theme = "hello-friend"
+
+[params]
+  # dir name of your blog content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
+
+  # OS theme is default when not provided, but you can force it to "light" or "dark"
+  defaultTheme = "dark"
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 10
+
+  # Show reading time in minutes for posts
+  showReadingTime = true
+
+  # Show table of contents at the top of your posts (defaults to false)
+  # Alternatively, add this param to post front matter for specific posts
+  toc = false
+
+  # Show full page content in RSS feed items
+  #(default is Description or Summary metadata in the front matter)
+  rssFullText = false
+
+[languages]
+  [languages.en]
+    title = "jawjawjaw.live"
+    subtitle = "Jaw's Brain Dump"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    writtenBy = "Written by"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
+    # leave empty to disable, enter display text to enable
+    # lastModDisplay = ""
+
+    [languages.en.params.logo]
+      logoText = "jawjawjaw"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "books"
+        name = "Books"
+        url = "/books"
+        weight = 100
+      [[languages.en.menu.main]]
+        identifier = "tech"
+        name = "Tech"
+        url = "/tech"
+        weight = 100
+      [[languages.en.menu.main]]
+        identifier = "writtens"
+        name = "Writtens"
+        url = "/writtens"
+        weight = 200
+      [[languages.en.menu.main]]
+        identifier = "bars"
+        name = "Bars"
+        url = "/bars"
+        weight = 300
+      [[languages.en.menu.main]]
+        identifier = "jaw-corner"
+        name = "Jaw's Corner"
+        url = "/jaw-corner"
+        weight = 300  
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+        weight = 999
