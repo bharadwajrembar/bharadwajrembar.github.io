@@ -38,8 +38,6 @@ summary: "Look ma, no hands!"
 **the monkeys begin to chatter away on their typewriters**
 ```
 
-![Monkeys](/infinite-monkeys.jpeg)
-
-{{<ico "info-circle">}} Credits - https://notapipe.biz/
+![Monkeys](/monkeys-on-typewriters.png)
 
 ~ The Unsung Prophet A.K.A jawjawjaw
