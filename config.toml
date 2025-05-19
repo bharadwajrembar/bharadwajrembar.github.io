@@ -110,3 +110,7 @@ theme = ["hugo-shortcode-roneo-collection", "PaperMod"]
         name = "Tags"
         url = "/tags"
         weight = 999
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
