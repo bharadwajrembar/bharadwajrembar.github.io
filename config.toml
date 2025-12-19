@@ -76,6 +76,11 @@ theme = ["hugo-shortcode-roneo-collection", "PaperMod"]
 
     [languages.en.menu]
       [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts"
+        weight = 100
+      [[languages.en.menu.main]]
         identifier = "books"
         name = "Books"
         url = "/books"
