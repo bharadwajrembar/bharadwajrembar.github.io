@@ -1,8 +1,7 @@
 ---
 title: "Jesse Livermore's Market Key"
-type: post
-description: "When to Buy and Sell a Stock"
 date: 2025-12-19T19:31:28+05:30
+description: "When to Buy and Sell a Stock"
 draft: false
 tags: ["finance","stock","trading","jesse livermore","market key"]
 ---

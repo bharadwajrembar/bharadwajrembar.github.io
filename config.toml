@@ -44,7 +44,7 @@ theme = ["hugo-shortcode-roneo-collection", "PaperMod"]
         typographer = true
   [markup.tableOfContents]
     endLevel = 3
-    ordered = false
+    ordered = true
     startLevel = 2
 
 

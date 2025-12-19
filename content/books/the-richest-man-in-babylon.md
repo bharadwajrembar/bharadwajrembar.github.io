@@ -2,7 +2,7 @@
 title: "The Richest Man in Babylon"
 date: 2022-09-11T19:31:28+05:30
 draft: false
-summary: "Get the financial snowball rolling"
+description: "Get the financial snowball rolling"
 tags: ["finance"]
 ---
 
